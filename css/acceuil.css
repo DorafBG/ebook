@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+h1{
+	text-align : center;
+	font-size : 3.5em;
+}
+h2{
+	text-align : center;
+	font-size : 1.8em;
+	padding-bottom: 0.5em;
+	
+}
+
+body{
+	text-align : center;
+}
+#italik{
+	font-style: italic;
+}
+
+#editeur{
+	margin: auto;
+	padding-top: 4.2em;
+	font-size: 1.1em;
+}
+
+
+body {
+	font-size: 25px;
+	text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+	background-image: url(../img/background-cover.jpg);
+	background-size: 100%;
+  }
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    border: 3px solid black;
+    background-color: rgb(246, 141, 55);
+    padding: 1em 2em;
+    position:sticky;
+    
+}
+.nav a:hover{
+    background-color: rgb(161, 161, 161);
+}
+.nav{
+    width: 20%;
+	height: auto;
+    position: fixed;
+	margin-top: 1em;
+
+}
